@@ -51,8 +51,41 @@ body {
 .item5>div:nth-child(even),
 .item6>div:nth-child(odd),
 .item7>div:nth-child(even),
-.item8>div:nth-child(odd){
+.item8>div:nth-child(odd)
+{
   background-color: rgb(189, 182, 213) ;
+}
+.item1>div:nth-child(even):hover{
+   
+    background-color: black;
+    
+}
+.item2>div:nth-child(odd):hover
+{
+    background-color: black;
+}
+.item3>div:nth-child(even):hover
+{
+    background-color: black;
+}
+.item4>div:nth-child(odd):hover
+{
+    background-color: black;
+}
+.item5>div:nth-child(even):hover
+{
+    background-color: black;
+}
+.item6>div:nth-child(odd):hover
+{ background-color: black;
+}
+.item7>div:nth-child(even):hover
+{
+  background-color: black;
+}
+.item8>div:nth-child(odd):hover
+{
+    background-color: black;
 }
 .item>div:hover{
     font-size: 80px;
